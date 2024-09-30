@@ -18,9 +18,10 @@ public class ShiftArray {
 			newArray[index] = arr[i];
 		}
 
-		arr = newArray;
+		for (int i = 0; i < arr.length; i++) {
+    	arr[i] = newArray[i];
 	}
-
+}
 
 	public static void main(String[] args) {
 		try{
